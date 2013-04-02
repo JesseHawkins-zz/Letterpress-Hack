@@ -3,7 +3,7 @@ Letterpress-Hack
 
 Detects the letters in a Letterpress game and finds the best words to play.
 
-Goal:
+#### GOAL ####
 
 1. load screenshot and break it into individual tiles
 2. detect the background color and letter of each tile
@@ -13,11 +13,10 @@ Goal:
 
 
 
-REVISION HISTORY
-================
+#### REVISION HISTORY ####
 
 0.1
- - First commit!
- - Issues with some letters (such as "V" and "R") not matching perfectly against their binarized version.
- - Logic need to account for a "checkboard" pattern that overlays the gray tiles.
- - Currently stuck at #3: group the found letters by background color
++ First commit!
++ Issues with some letters (such as "V" and "R") not matching perfectly against their binarized version.
++ Logic need to account for a "checkboard" pattern that overlays the gray tiles.
++ Currently stuck at #3: group the found letters by background color
